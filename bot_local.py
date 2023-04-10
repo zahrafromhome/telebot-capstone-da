@@ -194,7 +194,6 @@ def send_plot(message):
 
         # (EXTRA CHALLENGE) Voice Message
         plot_info = list(zip(
-            plot_info = list(zip(
             ['spent', 'approved_conversion', 'cpc'],
             df_plot.idxmax().values,
             df_plot.idxmin().values))
