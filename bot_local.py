@@ -35,7 +35,7 @@ def send_welcome(message):
     with open('template_text/welcome.txt', mode='r', encoding='utf-8') as f:
         content = f.read()
         temp = Template(content)
-        welcome = temp.substitute(FULL_NAME = "Algoritma")
+        welcome = temp
 
     bot.send_message(
         chat_id,
